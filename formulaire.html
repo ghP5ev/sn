@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire Exemple</title>
+</head>
+<body>
+
+<h1 style="text-align: center; color: #ff0000;">Formulaire d'Exemple</h1>
+
+<h2 style="color: #ff0000;">1. Introduction</h2>
+		<dl>
+		<dt>Ordinateur</dt>
+		<dd> Machine automatique de traitement de l'information, obéissant à des programmes formés par des suites d'opérations arithmétiques et logiques.</dd>
+		</dl>
+
+<h2 style="color: #ff0000;">2. Windows c'est quoi au juste</h2>
+<ul>
+    <li>Microsoft Windows est un type de système d'exploitation couramment utilisé sur les ordinateurs et les portables.</li>
+  <br>  <li>Il est responsable de la gestion du matériel et des logiciels liés à votre ordinateur et fournit une interface qui vous permet d'interagir avec votre appareil.</li>
+</ul>
+
+<h2 style="color: #ff0000;">3. Tableau</h2>
+
+<table border="1">
+    <h3><caption >Tableau Souris sans fils et sur les écran 4k</caption></h3>
+    <tr>
+        <th>Souris sans fils</th>
+        <td>Logitech MX Master 3</td>
+        <td>Razer Basilisk X Hyperspeed</td>
+    </tr>
+    <tr>
+        <th>Souris avec fils</th>
+        <td>SteelSeries Rival 600</td>
+        <td>Corsair M65 RGB Elite</td>
+    </tr>
+    <tr>
+        <th>écran 4k</th>
+        <td>Modèles d'écrans 4K</td>
+        <td>LG 27UL850-W</td>
+    </tr>
+</table>
+
+<h2 style="color: #ff0000;">4. Formulaire</h2>
+<table border="1" style="border-collapse: collapse;">
+    <tr>
+        <td>
+            <form>
+                <table>
+                    <tr>
+                        <td align="right" style="padding-right: 10px;"><label for="nom">NOM:</label></td>
+                        <td style="border-left: 1px solid black; padding-left: 10px;"><input type="text" id="nom" name="nom" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="padding-right: 10px;"><label for="prenom">PRENOM:</label></td>
+                        <td style="border-left: 1px solid black; padding-left: 10px;"><input type="text" id="prenom" name="prenom" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr></td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="padding-right: 10px;"><label for="mot_de_passe">MOT DE PASSE:</label></td>
+                        <td style="border-left: 1px solid black; padding-left: 10px;"><input type="password" id="mot_de_passe" name="mot_de_passe" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="padding-right: 10px;"><label for="sexe">SEXE:</label></td>
+                        <td style="border-left: 1px solid black; padding-left: 10px;">
+                            <input type="radio" id="homme" name="sexe" value="homme">
+                            <label for="homme">Homme</label>
+                            <input type="radio" id="femme" name="sexe" value="femme">
+                            <label for="femme">Femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="padding-right: 10px;"><label for="fonction">FONCTION:</label></td>
+                        <td style="border-left: 1px solid black; padding-left: 10px;">
+                            <select id="fonction" name="fonction" style="width: 100%;">
+                                <option value="etudiant">ETUDIANT</option>
+                                <option value="enseignant">ENSEIGNANT</option>
+                                <option value="autre">AUTRE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="top" style="padding-right: 10px;"><label for="commentaire">COMMENTAIRE:</label></td>
+                        <td style="border-left: 1px solid black; padding-left: 10px;"><textarea id="commentaire" name="commentaire" rows="4" cols="20" style="width: 100%;">Tapez vos commentaires...</textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" style="padding-top: 10px;">
+                            <button type="submit">envoyer</button>
+                            <span style="display:inline-block; width: 10px;"></span>
+                            <input type="reset" value="EFFACER">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+<br>
+<center>
+<a href="./sommaire.html" style="color: #ff0000; text-decoration: none; font-size: 20px; margin: 0 20px; position: relative; display: inline-block; transition: color 0.3s;">Sommaire</a><br>
+        <a href="./index.html" style="color: #ff0000; text-decoration: none; font-size: 20px; margin: 0 20px; position: relative; display: inline-block; transition: color 0.3s;">Page 1</a><br>
+        <a href="./page2.html" style="color: #ff0000; text-decoration: none; font-size: 20px; margin: 0 20px; position: relative; display: inline-block; transition: color 0.3s;">Page 2</a><br>
+        <a href="./page3.html" style="color: #ff0000; text-decoration: none; font-size: 20px; margin: 0 20px; position: relative; display: inline-block; transition: color 0.3s;">Page 3</a>
+</center>
+
+<p><a href="#top" style="float: right;"><img src="./fleche2.png" alt="Flèche vers le haut" style="width: 50px; height: auto;"></a>
+</p>
+
+
+</body>
+</html>
